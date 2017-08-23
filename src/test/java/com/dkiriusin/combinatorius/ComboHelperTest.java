@@ -312,7 +312,7 @@ public class ComboHelperTest {
 				minified_filename.equalsIgnoreCase("ead6bfd91956c95aeff5d21e8e6f5cca_extra1.min.css"));
 	}
 
-	@Test(timeout = 50)
+	@Test(timeout = 100)
 	public void testGetContentReturnsActualContent() throws IOException {
 		Mockito.when(properties.getProperty(Property.CSS_DIR.getName())).thenReturn("src/test/resources/css");
 		Mockito.when(properties.getProperty(Property.CSS_CACHE_DIR.getName()))
