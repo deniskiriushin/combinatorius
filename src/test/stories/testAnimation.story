@@ -7,7 +7,7 @@ Scenario: Checking F5 JavaScript animation
 Given I am on main page
 When I press 'f5_js' button
 Then I should see '/combo/&type=js&resources=extra_js/extra1.js&v=15' text in 'div#js_url' section
-And I should see '304 Not Modified' text in 'div#js_url' sectio
+And I should see '304 Not Modified' text in 'div#js_url' section
 
 Scenario: Checking F5 CSS animation
 
