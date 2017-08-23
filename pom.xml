@@ -7,12 +7,12 @@
 	<packaging>jar</packaging>
 	<name>CSS and JavaScript concatenation tool</name>
 	<description>CSS and JavaScript concatenation tool</description>
-	<url>https://github.com/deniskiriusin/combinatorius</url>
+	<url>https://github.com/deniskiriushin/combinatorius</url>
 
 	<developers>
 		<developer>
 			<name>Denis Kiriusin</name>
-			<email>deniskir@gmail.com</email>
+			<email>denis.kiriushin@gmail.com</email>
 		</developer>
 	</developers>
 
