@@ -6,7 +6,7 @@ addons:
   apt:
     packages:
       - xvfb
-  firefox: "55.0.2"
+  firefox: "46.0.0"
 install: true
 before_script:
   - "export DISPLAY=:99.0"
