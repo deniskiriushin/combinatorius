@@ -293,7 +293,7 @@ class ComboHelper {
 						} else {
 							file_bytes = CIOUtils.getFilesByteArray(Collections.singleton(f));
 						}
-						bytes = addArrays(bytes, file_bytes);
+						bytes = addArrays(bytes, addArrays(file_bytes, "\n\n".getBytes("UTF-8")));
 					}
 					// remove existing combined files from cache
 					for (final File f : FileUtils.listFiles(cacheDir, new String[] {"cmb", "gzip"}, false)) {
