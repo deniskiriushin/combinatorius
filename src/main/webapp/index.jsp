@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
-<%@ taglib uri="https://github.com/deniskiriusin/combinatorius" prefix="cb" %>
+<%@ taglib uri="https://github.com/deniskiriushin/combinatorius" prefix="cb" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ page session="false" %>
 
@@ -103,7 +103,7 @@
 				<ul>
 					<li>
 <pre>
-&lt;%@ taglib uri="https://github.com/deniskiriusin/combinatorius" prefix="cb" %&gt;
+&lt;%@ taglib uri="https://github.com/deniskiriushin/combinatorius" prefix="cb" %&gt;
 &lt;cb:combo type=&quot;css&quot; path=&quot;\${path}&quot;&gt;
 &nbsp;&nbsp;&lt;jsp:attribute name=&quot;theme&quot;&gt;blue&lt;/jsp:attribute&gt;
 &nbsp;&nbsp;&lt;jsp:attribute name=&quot;csv_resources&quot;&gt;extra_css/extra1.css,extra_css/extra2.css&lt;/jsp:attribute&gt;
@@ -190,7 +190,7 @@
 		<div id="footer">
 			<jsp:useBean id="date" class="java.util.Date" />
 			<fmt:formatDate value="${date}" pattern="yyyy" var="currentYear" />
-			<p><c:out value="${currentYear}" />&nbsp;&copy;<a href="mailto:deniskir@gmail.com">&nbsp;Denis Kiriusin</a></p>
+			<p><c:out value="${currentYear}" />&nbsp;&copy;<a href="mailto:denis.kiriushin@gmail.com">&nbsp;Denis Kiriusin</a></p>
 		</div>
 
 	</div>

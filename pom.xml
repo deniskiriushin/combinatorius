@@ -19,7 +19,7 @@
 	<licenses>
 		<license>
 			<name>MIT license</name>
-			<url>https://github.com/deniskiriusin/combinatorius/blob/master/LICENSE.txt</url>
+			<url>https://github.com/deniskiriushin/combinatorius/blob/master/LICENSE.txt</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
@@ -36,9 +36,9 @@
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:git://github.com/deniskiriusin/combinatorius.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/deniskiriusin/combinatorius.git</developerConnection>
-		<url>http://github.com/deniskiriusin/combinatorius</url>
+		<connection>scm:git:git://github.com/deniskiriushin/combinatorius.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/deniskiriushin/combinatorius.git</developerConnection>
+		<url>http://github.com/deniskiriushin/combinatorius</url>
 		<tag>combinatorius-v1.0.61</tag>
 	</scm>
 

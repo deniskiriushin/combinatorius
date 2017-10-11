@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2015 deniskir@gmail.com. All rights reserved.
+ * Copyright (c) 2015 denis.kiriushin@gmail.com. All rights reserved.
  *
  * @author Denis Kiriusin
  */
@@ -21,7 +21,7 @@ import javax.servlet.jsp.tagext.SimpleTagSupport;
  * <b>Usage example</b>:
  * 
  * <pre>
- * &lt;%@ taglib uri="https://github.com/deniskiriusin/combinatorius" prefix="cb" %&gt;
+ * &lt;%@ taglib uri="https://github.com/deniskiriushin/combinatorius" prefix="cb" %&gt;
  * <br>
  * &lt;cb:combo type="css" path="${path}"&gt;
  *     &lt;jsp:attribute name="theme"&gt;${theme}&lt;/jsp:attribute&gt;

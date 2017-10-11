@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2015 deniskir@gmail.com. All rights reserved.
+ * Copyright (c) 2015 denis.kiriushin@gmail.com. All rights reserved.
  *
  * @author Denis Kiriusin
  */

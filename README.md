@@ -137,7 +137,7 @@ It might be useful for testing purposes or with rarely used resources that shoul
 
 It is recommended to use JSP tag in order to generate a valid Combinatorius URL. One tag for CSS and one for JavaScript respectively. The only mandatory attributes are `type` and `path`.
 ```xml
-<%@ taglib uri="https://github.com/deniskiriusin/combinatorius" prefix="cb" %>
+<%@ taglib uri="https://github.com/deniskiriushin/combinatorius" prefix="cb" %>
 
 <cb:combo type="css" path="/combo">
     <jsp:attribute name="theme">blue</jsp:attribute>

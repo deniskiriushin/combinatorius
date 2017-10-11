@@ -1,2 +1,2 @@
-Created-By: Denis Kiriusin (deniskir@gmail.com)
+Created-By: Denis Kiriusin (denis.kiriushin@gmail.com)
 Name: com/dkiriusin/combinatorius
